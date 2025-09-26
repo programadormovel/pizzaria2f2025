@@ -6,7 +6,6 @@ import { useState, useEffect } from "react"
 const Produtos = () => {
     // Estado com lista de pizzas
     const [pizzas, setPizzas] = useState(['Calabraza', 'Muçarela', 'Baiana'])
-
     // Consumo de um endpoint com as pizzas
     // GET - busca os dados do endpoint ou rota
     // THEN - é uma Promise - método assíncrono
